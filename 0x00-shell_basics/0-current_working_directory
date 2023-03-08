@@ -1,2 +1,2 @@
-#!/bin/bash
-echo ‘The Directory Path is’ ’dirname $path’
+#!/bin/bash DIR_PATH=’dirname $path’
+echo $DIR_PATH
