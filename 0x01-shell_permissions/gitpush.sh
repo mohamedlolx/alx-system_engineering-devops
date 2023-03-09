@@ -1,4 +1,5 @@
-#!/bin/bash
+!/bin/bash
+read msg
 git add .
-git commit -m '${msg}'
+git commit -m ${msg}
 git push 
